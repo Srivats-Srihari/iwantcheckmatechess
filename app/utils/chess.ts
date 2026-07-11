@@ -568,8 +568,8 @@ export function getChallengeStartingFen(
   const grid: string[][] = Array(8).fill(null).map(() => Array(8).fill(''));
 
   // In challenge_lose, player always starts standard, bot is always asymmetric (King + N target pieces)
-  const playerSetup = 'standard';
-  const botSetup = 'asymmetric';
+   const playerSetup: 'standard' | 'asymmetric' = 'standard';
+   const botSetup: 'standard' | 'asymmetric' = 'asymmetric';
 
   // Player's setup (White if playerColor is white, Black if black)
   if (playerColor === 'white') {
