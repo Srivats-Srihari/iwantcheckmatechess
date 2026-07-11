@@ -1,0 +1,19 @@
+{
+  "color": "White",
+  "time_bucket": "Blitz",
+  "games": 647,
+  "target_moves": 22224,
+  "skipped_games": 0,
+  "bad_start_positions": 7,
+  "illegal_pushes": 0,
+  "bad_fens_seen": 0,
+  "unique_fens": 16653,
+  "unique_moves": 1498,
+  "output_files": {
+    "move_probs_json": "output/Jsons/White/Blitz/move_probs.json",
+    "best_move_json": "output/Jsons/White/Blitz/best_move.json",
+    "move_counts_parquet": "output/Jsons/White/Blitz/move_counts.parquet",
+    "fen_stats_parquet": "output/Jsons/White/Blitz/fen_stats.parquet",
+    "move_vocab_json": "output/Jsons/White/Blitz/move_vocab.json"
+  }
+}

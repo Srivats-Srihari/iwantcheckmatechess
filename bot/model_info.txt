@@ -1,0 +1,20 @@
+{
+  "pytorch": {
+    "exists": true,
+    "type": "<class 'dict'>",
+    "keys": [
+      "model_state_dict",
+      "vocab_size",
+      "move_vocab",
+      "backend",
+      "color",
+      "time_bucket"
+    ],
+    "state_dict_keys_count": 6,
+    "shapes": {}
+  },
+  "onnx": {
+    "exists": true,
+    "error": "No module named 'onnx'"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "color": "Black",
+  "time_bucket": "Classical",
+  "games": 21,
+  "target_moves": 444,
+  "skipped_games": 0,
+  "bad_start_positions": 0,
+  "illegal_pushes": 0,
+  "bad_fens_seen": 0,
+  "unique_fens": 411,
+  "unique_moves": 224,
+  "output_files": {
+    "move_probs_json": "output/Jsons/Black/Classical/move_probs.json",
+    "best_move_json": "output/Jsons/Black/Classical/best_move.json",
+    "move_counts_parquet": "output/Jsons/Black/Classical/move_counts.parquet",
+    "fen_stats_parquet": "output/Jsons/Black/Classical/fen_stats.parquet",
+    "move_vocab_json": "output/Jsons/Black/Classical/move_vocab.json"
+  }
+}

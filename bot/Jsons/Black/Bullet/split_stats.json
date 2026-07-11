@@ -1,0 +1,19 @@
+{
+  "color": "Black",
+  "time_bucket": "Bullet",
+  "games": 793,
+  "target_moves": 28003,
+  "skipped_games": 0,
+  "bad_start_positions": 1,
+  "illegal_pushes": 0,
+  "bad_fens_seen": 0,
+  "unique_fens": 23555,
+  "unique_moves": 1557,
+  "output_files": {
+    "move_probs_json": "output/Jsons/Black/Bullet/move_probs.json",
+    "best_move_json": "output/Jsons/Black/Bullet/best_move.json",
+    "move_counts_parquet": "output/Jsons/Black/Bullet/move_counts.parquet",
+    "fen_stats_parquet": "output/Jsons/Black/Bullet/fen_stats.parquet",
+    "move_vocab_json": "output/Jsons/Black/Bullet/move_vocab.json"
+  }
+}
