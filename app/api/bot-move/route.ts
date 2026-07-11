@@ -169,8 +169,8 @@ async function predictMoveOnnx(
     
     // Retrieve expected dimensions from the metadata, fallback to standard [1, 12, 8, 8]
     const inputMeta = session.inputs[0];
-    const inputShape = inputMeta.dims || [1, 12, 8, 8];
-    const parsedShape = inputShape.map(dim => typeof dim === 'number' && dim > 0 ? dim : 1);
+    const parsedShape = inputShape.map((dim: any) => typeof dim === 'number' && dim > 0 ? dim : 1);
+    
 
     // 3. Encode chess board state and create input Float32 Tensor
     const board = fenToBoard(fen);
